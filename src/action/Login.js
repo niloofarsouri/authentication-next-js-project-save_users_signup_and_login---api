@@ -1,6 +1,6 @@
 'use server'
 
-import { getByCookie, getByPassword, getByUsername } from './Signup';
+import { getByPassword, getByUsername } from './Signup';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/dist/server/api-utils';
 import { cookies } from 'next/headers';
